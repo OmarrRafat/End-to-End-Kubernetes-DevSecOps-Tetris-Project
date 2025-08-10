@@ -3,7 +3,7 @@ terraform {
     bucket         = "my-aws-bucket-omar97"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/EKS-TF/terraform.tfstate"
-    dynamodb_table = "dynamodb-table"
+    dynamodb_table = "dynamodb-table" #comment
     encrypt        = true
   }
   required_version = ">=0.13.0"
